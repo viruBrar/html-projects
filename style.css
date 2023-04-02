@@ -1,32 +1,22 @@
-/* Set the font family and background color for the entire page */
 body {
   font-family: Arial, sans-serif;
   background-color: #F5DEB3;
 }
 
-/* Style the header with a background color and padding */
 header {
   background-color: #FFB347;
   padding: 10px;
 }
 
-/* Style the logo image */
 .logo {
   display: inline-block;
-  max-height: 80px; /* set a maximum height for the logo */
+  max-height: 80px; 
 }
 
-.logo img {
-  max-height: 80px; /* set the maximum height of the logo image to 100% of its container */
-  width: 80px; /* allow the width of the logo image to adjust automatically */
-}
-
-/* Add a hover effect to the logo */
 .logo img:hover {
   transform: rotate(360deg);
 }
 
-/* Style the navigation menu */
 nav ul {
   list-style: none;
   margin: 0;
@@ -35,7 +25,6 @@ nav ul {
   justify-content: flex-end;
 }
 
-/* Style the navigation links */
 nav ul li a {
   display: block;
   padding: 10px;
@@ -45,21 +34,18 @@ nav ul li a {
   transition: background-color 0.3s ease;
 }
 
-/* Add a hover effect to the navigation links */
 nav ul li a:hover {
   background-color: #E67E22;
 }
 
-/* Style the main content area */
 main {
   padding: 20px;
 }
 
-/* Style the heading and paragraph text */
 h1, p {
   color: #333;
 }
-/* Style buttons */
+
 button, input[type="submit"], input[type="reset"] {
   background-color: #E67E22;
   border: none;
@@ -70,24 +56,20 @@ button, input[type="submit"], input[type="reset"] {
   transition: background-color 0.3s ease;
 }
 
-/* Add hover effect to buttons */
 button:hover, input[type="submit"]:hover, input[type="reset"]:hover {
   background-color: #D35400;
 }
 
-/* Style forms */
 form {
   display: flex;
   flex-wrap: wrap;
 }
 
-/* Style form labels */
 form label {
   display: block;
   margin-bottom: 10px;
 }
 
-/* Style form inputs */
 form input[type="text"], form input[type="email"], form textarea {
   width: 100%;
   padding: 10px;
@@ -96,18 +78,16 @@ form input[type="text"], form input[type="email"], form textarea {
   margin-bottom: 20px;
 }
 
-/* Style images */
 img {
   max-width: 80%;
   height: 300px;
   transition: transform 0.3s ease;
 }
 
-/* Add hover effect to images */
 img:hover {
   transform: scale(1.1);
 }
-/* Style the footer */
+
 footer {
   background-color: #FFB347;
   color: #FFF;
@@ -115,32 +95,28 @@ footer {
   text-align: center;
 }
 
-/* Responsive design rules */
+
 @media (max-width: 768px) {
-  /* Change the flexbox layout of the navigation menu */
+ 
   nav ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  /* Adjust the logo size */
   .logo img {
     height: 40px;
   }
 
-  /* Adjust the padding on the main content area */
   main {
     padding: 10px;
   }
 }
-/* Reduce the size of product images */
 .product img {
   width: 500px;
   height: 300xpx;
 }
 
-/* Place products consecutively */
 .product {
   display: inline-block;
   max-width: 30%;
@@ -148,7 +124,6 @@ footer {
   vertical-align: top;
 }
 
-/* Clear the margin on the last product in each row */
 .product:nth-child(3n) {
   margin-right: 0;
 }
